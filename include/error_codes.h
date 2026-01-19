@@ -1,0 +1,12 @@
+#pragma once
+
+typedef enum error_code_t {
+    OK, ERROR,
+
+    SHADER_COMPILE_VERTEX_FAILED,
+    SHADER_COMPILE_FRAGMENT_FAILED,
+    SHADER_LINKING_FAILED,
+    SHADER_UNIFORM_NOT_FOUND,
+
+    FILE_FAILED_TO_OPEN
+} error_code_t;

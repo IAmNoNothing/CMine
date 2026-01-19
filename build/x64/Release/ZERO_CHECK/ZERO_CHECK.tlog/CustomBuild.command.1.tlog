@@ -1,0 +1,10 @@
+^C:\USERS\ASUS\PROJECTS\CMINE\BUILD\CMAKEFILES\33A29AA999813C102003D4EADA6D9480\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Asus/Projects/CMine -BC:/Users/Asus/Projects/CMine/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Asus/Projects/CMine/build/CMine.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
