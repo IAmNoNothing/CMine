@@ -1,3 +1,0 @@
-C:/Users/Asus/Projects/CMine/build/CMakeFiles/CMine.dir
-C:/Users/Asus/Projects/CMine/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/Asus/Projects/CMine/build/CMakeFiles/ZERO_CHECK.dir
